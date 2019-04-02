@@ -20,6 +20,9 @@ class List //begin List definition
      int size();//return the number of elements in the List
      
      
+void clear();//remove all elements
+int get(int element, int k);//return element at location k
+
      /** MISSING OPERATIONS */
      //... fill in ....
 

@@ -93,3 +93,33 @@ void List::remove(int k)
 	
 	//Implementations of missing operations
 	
+void List::clear()
+{
+	while (size() != 0)
+	{
+		
+		remove(1);
+	}
+}
+
+int List::get(int element, int k)
+{
+	 if (k < 1 or k > num_elements)//if the location is invalid 
+             throw out_of_range("List::remove(" +to_string(k)+") failed. (valid indices are 1 to "+to_string(num_elements)+")");//throw an "out_of_range" exception
+
+	if (k == 1)
+	{
+		 return frontptr->data;
+	}
+	else
+	{
+		int loc == 1;
+		
+		while (loc != k-1)
+		{
+			if 
+	}
+			
+
+
+}
